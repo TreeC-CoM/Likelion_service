@@ -5,6 +5,7 @@ Web-page project to realize my idea into a complete web-page
 *Started: 2019-03-25
 
 서비스 소개: 팀 프로젝트 페이지
+
 ***본 프로젝트로 제작할 웹 페이지는 팀 프로젝트를 더 효율적으로 관리하고,
 후배들을 위해 팀 프로젝트 제작 과정 및 결과물들을 족보 형식으로 저장해 물려주는 목적으로
 만드는 웹 페이지다.***
