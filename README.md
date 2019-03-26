@@ -4,6 +4,8 @@ Web-page project to realize my idea into a complete web-page
 *Created by Ahn, Young Min
 *Started: 2019-03-25
 
+***The page starts from 'main_page.html'***
+
 서비스 소개: 팀 프로젝트 페이지
 
 ***본 프로젝트로 제작할 웹 페이지는 팀 프로젝트를 더 효율적으로 관리하고,
