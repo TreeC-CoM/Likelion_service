@@ -1,0 +1,103 @@
+/*
+#jb-wrap {
+	width: 40%;
+	margin: 10px auto;
+	border: 1px solid #000000;
+	position: relative;
+}
+
+#jb-wrap img{
+	width: 100%;
+	vertical-align: middle;
+}
+*/
+
+#jb-text {
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    font-size: 5rem;
+    color: white;
+    z-index: 1;
+    text-align: center;
+    border: 1px solid #000000;
+}
+
+img.opac { 
+    position: relative;
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+    opacity: 0.5; 
+    filter: alpha(opacity=50); 
+    z-index: 1;
+    /* IE8 및 그 이하 버전용 */ 
+} 
+
+
+img.opac:hover { 
+    width: 800px;
+    height: 600px;
+    display: block;
+    margin: 0px auto;
+    padding: 20px;
+    opacity: 1.0;
+    filter: alpha(opacity=100); 
+    /*IE8 및 그 이하 버전용*/
+}
+
+
+#jb-container {
+    width: 1000px;
+    height: 500px auto;
+    margin: 20px;
+    padding: 20px auto;
+    border: 1px solid #bcbcbc;
+}
+
+#jb-header {
+    /*여기 안에 왼쪽에다 메뉴바 추가. 오른쪽에는 로그인 버튼 추가
+    로그인 버튼은 강의 들으면서 만든 웹페이지 조금 수정해서 만든 로그인 페이지로 넘어간다.*/
+    width: 900px;
+    height: 300px;
+    padding: 30px;
+    margin: 20px auto;
+    border: 1px solid #bcbcbc;
+    text-align: center;
+}
+
+#jb-content {
+    /*이미지 파일을 올려서 투명도를 올리고, 텍스트를 쓴다.*/
+    width: 80%;
+    height: 200px;
+    float: left;
+    margin: 20px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+#jb-button {
+    /*이미지 파일을 올려서 투명도를 올리고, 텍스트를 쓴다.*/
+    float: right;
+    padding: 30px;
+    text-align: center;
+}
+
+#jb-sidebar {
+    /*이건 아직 뭐로 쓸지 모르겠다. 일단 추가만 해놓자.*/
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    text-align: center;
+    border: 1px solid #bcbcbc;
+}
+        
+#jb-footer {
+    clear: both;
+    padding: 20px;
+    border: 1px solid #bcbcbc;
+}
